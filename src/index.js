@@ -23,10 +23,11 @@ app.post("/account", (request, response) =>{
         name,
         id,
         statement: [],
-    })
+    });
 
     return response.status(201).send()
 
 })
 
 app.listen(3333)
+
